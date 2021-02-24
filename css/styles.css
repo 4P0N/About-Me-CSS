@@ -1,3 +1,60 @@
-body{
-    background-color: black;
+h1{
+    width: 20%;
+    margin: 0 auto;
+    /* auto margin is used to center horizontally or vrtically by setting
+        values of top, right, bottom and left sequentially */
+    font-family: 'Sacramento', cursive;
 }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font: bold;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font: bold;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    /*this will only center inline elements and block elements taking the whole width*/
+    font-family: 'Merriweather', serif;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;/*otherwise cloud will be positioned relative to body as its aprent would
+                            have static position*/
+}
+
+.bottom-cloud{
+    position:absolute;
+}
+
+.top-cloud{
+    position:absolute;
+    top: 50px;
+    right: 550px;
+}
+
+#profile-image{
+    width: 150px;
+    height: 150px;
+}
+
+.skill-img{
+    width: 200px;
+    height: 200px;
+}
+
+.skill2-img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
