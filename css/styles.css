@@ -1,7 +1,7 @@
 h1{
     width: 30%;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     /* auto margin is used to center horizontally or vrtically by setting
         values of top, right, bottom and left sequentially */
     font-family: 'Sacramento', cursive;
@@ -46,9 +46,11 @@ hr{
 }
 
 .top-container{
-    background-color: #e4f9f5;
-    position: relative;/*otherwise cloud will be positioned relative to body as its aprent would
-                            have static position*/
+    margin: 0;
+    padding: 0;
+    background-color: #e4f9f5 ;
+    position: relative;/*otherwise cloud will be positioned relative to body as its parent would
+                            have static position */
 }
 
 .middle-container{
@@ -57,13 +59,45 @@ hr{
 
 .bottom-cloud{
     position:absolute;
+    top : 180px;
+    left: 300px;
+
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    font: bold;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.copy-right{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
+
+.mid-cloud{
+    position:absolute;
+    bottom : 200px;
+    left: 500px;
+
 }
 
 .top-cloud{
     position:absolute;
-    top: 50px;
-    right: 550px;
-}
+    top: 140px;
+    right: 480px;
+} 
 
 #profile-image{
     width: 150px;
@@ -135,7 +169,6 @@ hr{
 .code-description{
     /* clear: left; */
 }
-
 
 
 
